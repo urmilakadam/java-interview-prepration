@@ -10,6 +10,10 @@ public class Address {
         this.state = state;
     }
 
+    public Address(Address address){
+        this(address.getCity(), address.getState());
+    }
+
     public String getState() {
         return state;
     }
@@ -24,5 +28,13 @@ public class Address {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                '}';
     }
 }
