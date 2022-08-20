@@ -2,3 +2,14 @@
 once the object created it can’t be changed
 
 Made student class as immutable.
+
+
+Output of Program:
+
+address hashcode2101440631
+Student{name='Urmila', address=Address{city='Pune', state='Maharastra'}}
+address1 hashcode940553268
+Student{name='Urmila', address=Address{city='Pune', state='Maharastra'}}
+
+
+hashcode for address and address1 is different hence it is not modifying the existing address insted it will create an new address instance.
