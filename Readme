@@ -1,0 +1,4 @@
+1. What is immutable object? 
+once the object created it can’t be changed
+
+Made student class as immutable.
